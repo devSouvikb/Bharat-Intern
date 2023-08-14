@@ -261,3 +261,114 @@ footer {
   font-size: 14px;
   margin-top: 20px;
 }
+
+/* media queries */
+@media (max-width: 426px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .btn-emain {
+    font-size: 18px;
+  }
+
+  nav,
+  .hero,
+  footer {
+    width: 90%;
+  }
+
+  /* navbar */
+  .logo {
+    width: 80px;
+  }
+
+  button + button {
+    margin-left: 10px;
+  }
+
+  .btn-secondary span {
+    display: none;
+  }
+
+  /* hero section */
+  .hero-container p {
+    margin-top: 20px;
+  }
+
+  .hero-txt {
+    line-height: 30px;
+    margin: 30px 0 !important;
+  }
+
+  .emain-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  input {
+    width: 100%;
+  }
+
+  /* feature section */
+  .feature {
+    width: 90%;
+    padding: 60px 0;
+    flex-direction: column;
+  }
+
+  .txt-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .feature img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /* faq section */
+  .faq-section {
+    width: 90%;
+    padding: 60px 0;
+  }
+
+  .faq-txt {
+    margin-top: 60px !important;
+    margin-bottom: 20px;
+  }
+
+  .faq-input {
+    width: 100%;
+  }
+
+  /* footer */
+  .footer-links-container {
+    width: 100%;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  nav,
+  .hero,
+  footer {
+    width: 90%;
+  }
+
+  input,
+  .faq-input {
+    width: 60%;
+  }
+}
