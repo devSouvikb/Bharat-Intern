@@ -1,0 +1,53 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  background-color: #000000;
+}
+
+:root {
+  --primary-color: #e50914;
+  --hover-color: #c11119;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+a {
+  color: rgba(225, 225, 225, 0.7);
+}
+
+.btn-primary:hover {
+  background-color: var(--hover-color);
+}
+
+hr {
+  height: 8px;
+  background-color: #232323;
+  border: none;
+}
