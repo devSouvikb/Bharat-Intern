@@ -186,3 +186,47 @@ input::placeholder {
   max-width: 100%;
   width: 45%;
 }
+
+/* faq section */
+.faq-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.faq-section h1 {
+  margin-bottom: 40px;
+}
+
+.faq + .faq {
+  margin-top: 10px;
+}
+
+.faq {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232323;
+  padding: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.faq-icon {
+  font-size: 36px;
+}
+
+.faq:hover {
+  background-color: #414141;
+}
+
+.faq-txt {
+  margin-top: 60px !important;
+  margin-bottom: 20px;
+}
+
+.faq-input {
+  width: 30%;
+  background-color: #ffffff14;
+}
